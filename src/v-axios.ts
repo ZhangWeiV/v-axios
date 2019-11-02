@@ -3,7 +3,10 @@
 // ...
 export default class DummyClass {
   private age: number;
+  private name: string;
+
   constructor(){
     this.age = 666;
+    this.name = "weige";
   }
 }
